@@ -1,0 +1,11 @@
+{
+  "name": "first_project",
+  "version": "1.0.0",
+  "description": "homework1",
+  "main": "gulpfile.js",
+  "author": "Alexey Solovev",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0"
+  }
+}

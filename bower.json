@@ -1,0 +1,23 @@
+{
+  "name": "first_project",
+  "authors": [
+    "Alexey Solovyov <halakul@live.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^3.0.3",
+    "modernizr": "2.8.3",
+    "jquery": "1.9.1"
+  }
+}
