@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ru-RU">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Главная страница</title>
+	<!-- SEO -->
+	<meta name="description" content="loftschool homework">
+	<meta name="keywords" content="loftschool homework">
+	<meta name="author" content="Alexey Solovev">
+	<!-- favico -->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-194x194.png" sizes="194x194">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- 	bower css -->
+	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
+	<!-- css -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/feedback.css">
+	<!-- modernizr -->
+	<script src="bower/modernizr/modernizr.js"></script>
+</head>
+
+<body>
+	<!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<a href="#">
+					<img src="img/logo.png" alt="alt-bad logo" class="logo">
+					<span class="hide-text">Сайт Super Алексея</span>
+				</a>
+				<ul class="socials">
+					<li class="social-item">
+						<a href="https://www.facebook.com/alex.solovyov.146">
+							<span class="hide-text">facebook.com</span>
+							<i class="sprite sprite-facebook"></i>
+						</a>
+					</li>
+					<li class="social-item">
+						<a href="http://vk.com/id15579274">
+							<span class="hide-text">vk.com</span>
+							<i class="sprite sprite-vk"></i>
+						</a>
+					</li>
+					<li class="social-item">
+						<a href="https://twitter.com/Halakul">
+							<span class="hide-text">twitter.com</span>
+							<i class="sprite sprite-twitter"></i>
+						</a>
+					</li>
+					<li class="social-item">
+						<a href="https://github.com/Halaku">
+							<span class="hide-text">github.com</span>
+							<i class="sprite sprite-github"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<div class="main-content">
+			<aside class="sidebar clearfx">
+				<nav class="navigation">
+					<ul class="menu">
+						<li class="menu-item">
+							<a href="index.html">Обо мне</a>
+						</li>
+						<li class="menu-item">
+							<a href="myworks.html">Мои работы</a>
+						</li>
+						<li class="menu-item">
+							<a href="feedback.html" class="active">Обратная связь</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="contacts">
+					<ul class="contacts-list">
+						<li class="contacts-header">
+							<span class="contacts-head">Контакты</span>
+						</li>
+						<li class="contacts-item">
+							<a href="mailto:halakul@live.ru" class="contacts-item-link email">
+								<i class="sprite sprite-email"></i>
+								<i class="sprite sprite-arrow"></i> halakul@live.ru
+							</a>
+						</li>
+						<li class="contacts-item">
+							<a href="tel:+79119304867" class="contacts-item-link phone">
+								<i class="sprite sprite-phone"></i>
+								<i class="sprite sprite-arrow"></i> +79119304867
+							</a>
+						</li>
+						<li class="contacts-item">
+							<a href="skype:leshka1291" class="contacts-item-link skype">
+								<i class="sprite sprite-skype"></i>
+								<i class="sprite sprite-arrow"></i> leshka1291
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+			<section>
+				<div class="section-body clearfx">
+					<h2 class="section-header">У вас есть интересный проект? Напишите мне!</h2>
+					<div class="information_content clearfx">
+						<div class="feedback-form_wrap">
+							<form action="#" name="feedbackForm" class="feedback_form">
+								<div class="form_user-info_wrap  clearfx">
+									<div class="form_input-wrap">
+										<label for="name" class="form_label">
+											Имя
+										</label>
+										<input type="text" class="input_area" id="name" placeholder="Как к Вам обращаться">
+									</div>
+									<div class="form_input-wrap">
+										<label for="email" class="form_label">
+											Email
+										</label>
+										<input type="email" class="input_area" id="email" placeholder="Куда мне писать">
+									</div>
+								</div>
+								<div class="form_textarea_wrap">
+									<label for="message" class="form_label">
+										Сообщение
+									</label>
+									<textarea class="form_textarea" name="message" id="message" placeholder="Кратко в чем суть"></textarea>
+								</div>
+								<div class="form_captcha-wrap">
+									<label for="captcha" class="form_label">
+										Введите код, указанный на картинке
+									</label>
+									<img src="img/captcha.jpg" alt="Введите код с картинки" class="captcha-pic">
+									<input type="text" class="input_area input_area-captcha" id="captcha" placeholder="Введите код">
+								</div>
+								<div class="form_buttons-wrap clearfx">
+									<button type="submit" class="form-button button-submit">Отправить</button>
+									<button type="reset" class="form-button button-reset">Очистить</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<footer class="footer-cont">
+		<div class="container">
+			<a href="/login.html" class="lock-button"><i class="sprite sprite-locked"></i>Вход</a>
+			<span class="copyright">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!</span>
+		</div>
+	</footer>
+	<script src="bower/jquery/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

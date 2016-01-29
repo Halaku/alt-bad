@@ -1,0 +1,185 @@
+*::-webkit-input-placeholder {
+	font-size: 12px;
+	font-family: 'open_sanslight';
+	color: rgb(199, 198, 198);
+}
+
+*::-moz-placeholder {
+	font-size: 12px;
+	font-family: 'open_sanslight';
+	color: rgb(199, 198, 198);
+}
+
+
+/* Firefox 19+ */
+
+*:-moz-placeholder {
+	font-size: 12px;
+	font-family: 'open_sanslight';
+	color: rgb(199, 198, 198);
+}
+
+
+/* Firefox 18- */
+
+*:-ms-input-placeholder {
+	font-size: 12px;
+	font-family: 'open_sanslight';
+	color: rgb(199, 198, 198);
+}
+
+.information_content {
+	width: 565px;
+	margin: 0 auto;
+	padding: 23px 0 26px 0;
+}
+
+.information_block-header-feedback {
+	padding: 10px 41px 14px 41px;
+}
+
+.feedback-form_wrap {
+	width: 405px;
+	margin: 0 auto;
+	padding-top: 3px;
+}
+
+.feedback_form {
+	margin-left: -19px;
+}
+
+.form_user-info_wrap,
+.form_textarea_wrap,
+.form_captcha-wrap {
+	margin-bottom: 11px;
+}
+
+.form_label {
+	display: block;
+	font-family: 'open_sansregular';
+	margin-bottom: 4px;
+	line-height: 26px;
+	font-size: 14px;
+}
+
+.form_input-wrap {
+	float: left;
+	margin-left: 19px;
+}
+
+.input_area {
+	width: 193px;
+	height: 40px;
+}
+
+.input_area,
+.form_textarea {
+	outline: none;
+	font-size: 12px;
+	font-family: 'open_sanslight';
+	box-sizing: border-box;
+	border: 1px solid rgb(214, 213, 211);
+	border-radius: 3px;
+	padding-left: 10px;
+	/* FF3.6-15 */
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(251, 249, 249, 0) 0%, rgba(233, 231, 231, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00fbf9f9', endColorstr='#e9e7e7', GradientType=0);
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35), inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
+}
+
+.form_textarea_wrap,
+.form_captcha-wrap,
+.form_buttons-wrap {
+	margin-left: 19px;
+}
+
+.form_textarea_wrap {
+	margin-bottom: 5px;
+}
+
+.form_textarea {
+	width: 404px;
+	height: 183px;
+	overflow-y: auto;
+	padding-top: 10px;
+	resize: none;
+}
+
+.form_captcha-wrap {
+	position: relative;
+	padding-bottom: 13px;
+}
+
+.input_area-captcha {
+	height: 34px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -16px;
+}
+
+.form-buttons-wrap {
+	padding: 0 30px 0 50px;
+}
+
+.form-button {
+	text-align: left;
+	width: 120px;
+	padding: 10px 20px;
+	font-size: 14px;
+	border-radius: 5px;
+	border: 0;
+	background-color: #dedede;
+	background: rgb(255, 255, 255);
+	/* Old browsers */
+	/* FF3.6-15 */
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(251, 249, 249, 1) 6%, rgba(233, 230, 228, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9e6e4', GradientType=0);
+	box-shadow: 0px .1px 1px 1px rgba(9, 9, 9, 0.15);
+}
+
+.form-button:hover {
+	background-color: #c6c3c3;
+	background: rgb(232, 231, 231);
+	/* Old browsers */
+	/* FF3.6-15 */
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(232, 231, 231, 1) 0%, rgba(230, 228, 228, 1) 10%, rgba(227, 225, 225, 1) 13%, rgba(194, 192, 192, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e8e7e7', endColorstr='#c2c0c0', GradientType=0);
+	box-shadow: 0px .1px 1px 1.4px rgba(9, 9, 9, 0.4);
+}
+
+.button-submit {
+	color: #1e7465;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+	background-color: #63d1b2;
+	background: rgb(128, 232, 203);
+	/* Old browsers */
+	/* FF3.6-15 */
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(128, 232, 203, 1) 0%, rgba(67, 183, 150, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#80e8cb', endColorstr='#43b796', GradientType=0);
+	box-shadow: 0px 2px 1px 0px rgba(67, 183, 150), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+}
+
+.button-submit:hover {
+	background-color: #4abb9f;
+	background: rgb(95, 220, 189);
+	/* Old browsers */
+	/* FF3.6-15 */
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(95, 220, 189, 1) 0%, rgba(58, 160, 135, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#5fdcbd', endColorstr='#3aa087', GradientType=0);
+	box-shadow: 0px 2px 1px 0px rgba(67, 183, 150), 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+}
+
+.button-reset {
+	float: right;
+}
