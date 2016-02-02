@@ -155,7 +155,7 @@
 }
 
 .form-button:focus {
-	border: none;
+	outline: none;
 }
 .button-submit {
 	color: #1e7465;
