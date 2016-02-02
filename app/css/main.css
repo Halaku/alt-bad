@@ -309,7 +309,7 @@ body {
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00fbf9f9', endColorstr='#73e0c591', GradientType=0);
   /* IE6-9*/
 }
-
+ 
 .contacts-item:last-child .contacts-item-link {
   border-radius: 0 0 3px 3px;
 }
