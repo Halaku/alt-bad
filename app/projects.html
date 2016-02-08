@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Главная страница</title>
+  <title>Мои работы</title>
   <!-- SEO -->
   <meta name="description" content="loftschool homework">
   <meta name="keywords" content="loftschool homework">
@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="bower/normalize-css/normalize.css">
   <!-- css -->
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/projects.css">
   <link rel="stylesheet" type="text/css" href="css/fonts.css">
   <!-- modernizr -->
   <script src="bower/modernizr/modernizr.js"></script>
@@ -85,10 +85,10 @@ to improve your experience.
         <nav class="navigation">
           <ul class="menu">
             <li class="menu-item">
-              <a href="index.html" class="active">Обо мне</a>
+              <a href="index.html">Обо мне</a>
             </li>
             <li class="menu-item">
-              <a href="projects.html">Мои работы</a>
+              <a href="projects.html" class="active">Мои работы</a>
             </li>
             <li class="menu-item">
               <a href="feedback.html">Обратная связь</a>
@@ -123,112 +123,63 @@ to improve your experience.
       </aside>
       <section>
         <div class="section-body clearfx">
-          <h2 class="section-header">Основная информация</h2>
-          <div class="container clearfx">
-            <div class="photo-wrapper">
-              <img src="img/avatar.jpg" alt="Photo of mine" class="photo"></div>
-            <div class="info-wrapper">
-              <ul class="info">
-                <li class="info-item clearfx">
-                  <span class="question">Меня зовут:</span>
-                  <span class="answer">Соловьев Алексей Дмитриевич</span>
-                </li>
-                <li class="info-item clearfx">
-                  <span class="question">Мой возраст:</span>
-                  <span class="answer">24 года</span>
-                </li>
-                <li class="info-item clearfx">
-                  <span class="question">Мой город:</span>
-                  <span class="answer">Санкт-Петербург, Россия</span>
-                </li>
-                <li class="info-item clearfx">
-                  <span class="question">Моя специализация:</span>
-                  <span class="answer">FRONTEND developer</span>
-                </li>
-                <li class="info-item clearfx">
-                  <span class="question">Ключевые навыки:</span>
-                  <ul class="tags">
-                    <li class="tag">HTML</li>
-                    <li class="tag">CSS</li>
-                    <li class="tag">JS</li>
-                    <li class="tag">GIT</li>
-                    <li class="tag">Gulp</li>
-                    <li class="tag">PHP</li>
-                    <li class="tag">Angular</li>
-                    <li class="tag">XML</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="section-body clearfx">
-          <h2 class="section-header">Опыт работы</h2>
-          <div class="container">
-            <ul class="work">
-              <li class="work-item clearfx">
-                <div class="round-case">
-                  <i class="sprite sprite-case"></i>
+          <h2 class="section-header">Мои работы</h2>
+          <ul class="projects-list">
+            <li class="projects-item">
+              <div class="hover-img">
+                <img src="img/pic1.png" alt="http://a-industry.ru/" class="project-img">
+                <div class="zoom-wrapper">
+                  <a href="http://a-industry.ru/" target="_blank" class="zoom-link">Посетить сайт</a>
                 </div>
-                <div class="work-info">
-                  <div class="place">"ИП Боровицкий" - Продавец дисков</div>
-                  <div class="date">Сентябрь 2005 - Август 2008</div>
+              </div>
+              <a href="http://a-industry.ru/" class="projects-link">a-industry.ru</a>
+              <span class="projects-discr"><p class="projects-discr-text">Корпоративный и в тоже время продающий сайт строительной компании a-industry.</p></span>
+            </li>
+            <li class="projects-item">
+              <div class="hover-img">
+                <img src="img/pic2.png" alt="http://домгазобетон.рф/" class="project-img">
+                <div class="zoom-wrapper">
+                  <a href="http://домгазобетон.рф/" target="_blank" class="zoom-link">Посетить сайт</a>
                 </div>
-              </li>
-              <li class="work-item clearfx">
-                <div class="round-case">
-                  <i class="sprite sprite-case"></i>
+              </div>
+              <a href="http://домгазобетон.рф/" class="projects-link">домгазобетон.рф</a>
+              <span class="projects-discr"><p class="projects-discr-text">Продающая страница для компании ledenland.</p></span>
+            </li>
+            <li class="projects-item">
+              <div class="hover-img">
+                <img src="img/pic3.png" alt="http://crmconsulting.biz/" class="project-img">
+                <div class="zoom-wrapper">
+                  <a href="http://crmconsulting.biz/" target="_blank" class="zoom-link">Посетить сайт</a>
                 </div>
-                <div class="work-info">
-                  <div class="place">"ИП Боровицкий" - Продавец дисков</div>
-                  <div class="date">Сентябрь 2005 - Август 2008</div>
+              </div>
+              <a href="http://crmconsulting.biz/" class="projects-link">crmconsulting.biz</a>
+              <span class="projects-discr"><p class="projects-discr-text">Лендинг компании «СRM Consulting» специализирующейся на точной настройке Битрикс24 под бизнес.</p></span>
+            </li>
+            <li class="projects-item">
+              <div class="hover-img">
+                <img src="img/pic4.png" alt="http://landingsloft.ru/" class="project-img">
+                <div class="zoom-wrapper">
+                  <a href="http://landingsloft.ru/" target="_blank" class="zoom-link">Посетить сайт</a>
                 </div>
-              </li>
-              <li class="work-item clearfx">
-                <div class="round-case">
-                  <i class="sprite sprite-case"></i>
+              </div>
+              <a href="http://landingsloft.ru/" class="projects-link">landingsloft.ru</a>
+              <span class="projects-discr"><p class="projects-discr-text">Сайт по услугам разработки продающих лендингов.</p></span>
+            </li>
+            <li class="projects-item">
+              <div class="hover-img">
+                <img src="img/pic5.png" alt="http://yasnow.biz/" class="project-img">
+                <div class="zoom-wrapper">
+                  <a href="http://yasnow.biz/" target="_blank" class="zoom-link">Посетить сайт</a>
                 </div>
-                <div class="work-info">
-                  <div class="place">"ИП Боровицкий" - Продавец дисков</div>
-                  <div class="date">Сентябрь 2005 - Август 2008</div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="section-body clearfx">
-          <h2 class="section-header">Образование</h2>
-          <div class="container">
-            <ul class="work">
-              <li class="work-item clearfx">
-                <div class="round-case">
-                  <i class="sprite sprite-school"></i>
-                </div>
-                <div class="work-info">
-                  <div class="place">Школа №6, г.Выборг</div>
-                  <div class="date">Сентябрь 1999 - Август 2010</div>
-                </div>
-              </li>
-              <li class="work-item clearfx">
-                <div class="round-case">
-                  <i class="sprite sprite-graduate"></i>
-                </div>
-                <div class="work-info">
-                  <div class="place">БГТУ Военмех</div>
-                  <div class="date">Сентябрь 2010 - по настоящее время</div>
-                </div>
-              </li>
-              <li class="work-item clearfx">
-                <div class="round-case">
-                  <i class="sprite sprite-diploma"></i>
-                </div>
-                <div class="work-info">
-                  <div class="place">Курсы Loftschool.ru</div>
-                  <div class="date">Январь 2016 - по настоящее время</div>
-                </div>
-              </li>
-            </ul>
-          </div>
+              </div>
+              <a href="http://yasnow.biz/" class="projects-link">yasnow.biz</a>
+              <span class="projects-discr"><p class="projects-discr-text">Landing page по продажи франшизы снежного бизнеса.</p></span>
+            </li>
+            <li class="projects-add">
+              <div class="projects-add-button"> <i class="sprite sprite-polaroid"></i></div>
+              <span class="projects-add-text">Добавить проект</span>
+            </li>
+          </ul>
         </div>
       </section>
     </div>
