@@ -176,44 +176,13 @@ to improve your experience.
               <span class="projects-discr"><p class="projects-discr-text">Landing page по продажи франшизы снежного бизнеса.</p></span>
             </li>
             <li class="projects-add">
-              <a href="#">
-                <div class="projects-add-hover"></div>
-                <div class="projects-add-button"> <i class="sprite sprite-polaroid"></i></div>
-                <span class="projects-add-text">Добавить проект</span>
-              </a>
+              <div class="projects-add-hover"></div>
+              <div class="projects-add-button"> <i class="sprite sprite-polaroid"></i></div>
+              <span class="projects-add-text">Добавить проект</span>
             </li>
           </ul>
         </div>
       </section>
-    </div>
-  </div>
-  <div class="popup-wrapper">
-    <div class="popup-content">
-      <h2 class="popup-header">Добавление проекта</h2>
-      <form class="popup-info">
-        <div class="popup-info-name">
-          <label for="" class="popup-label">Название проекта</label>
-          <input type="text" class="popup-input" placeholder="Введите название">
-        </div>
-        <div class="popup-info-name">
-          <label for="" class="popup-label">Картинка проекта</label>
-          <div class="popup-input-file-wrapper clearfx">
-            <input type="text" class="popup-input-file-fake" placeholder="Загрузите изображение">
-            <div class="popup-input-file-button">
-              <input type="file" class="popup-input-file">
-            </div>
-          </div>
-        </div>
-        <div class="popup-info-name">
-          <label for="" class="popup-label">URL проекта</label>
-          <input type="text" class="popup-input" placeholder="Добавьте ссылку">
-        </div>
-        <div class="popup-info-name">
-          <label for="" class="popup-label">Описание</label>
-          <textarea class="popup-textarea" placeholder="Пара слов о Вашем проекте"></textarea>
-        </div>
-        <button type="submit" class="popup-button">Добавить</button>
-      </form>
     </div>
   </div>
   <footer class="footer-cont">
@@ -224,8 +193,43 @@ to improve your experience.
       <span class="copyright">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!</span>
     </div>
   </footer>
+  <div class="popup-wrapper">
+  <div class="popup-mask"></div>
+  <div class="popup-content">
+    <div class="popup-content-close"></div>
+    <h2 class="popup-header">Добавление проекта</h2>
+    <form class="popup-info">
+      <div class="popup-info-name">
+        <label for="" class="popup-label">Название проекта</label>
+        <input type="text" class="popup-input" placeholder="Введите название">
+      </div>
+      <div class="popup-info-name">
+        <label for="" class="popup-label">Картинка проекта</label>
+        <div class="popup-input-file-wrapper clearfx">
+          <input type="text" class="popup-input-file-fake" placeholder="Загрузите изображение">
+          <div class="popup-input-file-button">
+            <input type="file" class="popup-input-file">
+          </div>
+        </div>
+      </div>
+      <div class="popup-info-name">
+        <label for="" class="popup-label">URL проекта</label>
+        <input type="text" class="popup-input" placeholder="Добавьте ссылку">
+      </div>
+      <div class="popup-info-name">
+        <label for="" class="popup-label">Описание</label>
+        <textarea class="popup-textarea" placeholder="Пара слов о Вашем проекте"></textarea>
+      </div>
+      <button type="submit" class="popup-button">Добавить</button>
+    </form>
+  </div>
+  <div class="popup-success">
+    <div class="popup-content-close"></div>
+    <div class="popup-success-message"><p class="popup-success-message-text"><span class="popup-success-message-ura">Ура!</span>Проект успешно добавлен!</p></div>
+  </div>
+  </div>
   <script src="bower/jquery/jquery.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
 </body>
 
 </html>

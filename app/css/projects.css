@@ -118,6 +118,7 @@
 }
 
 .projects-add {
+  cursor: pointer;
   position: relative;
   height: 131px;
   background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(251,249,249,1) 6%,rgba(237,235,234,1) 100%);
@@ -202,26 +203,36 @@
 }
 
 .popup-wrapper {
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: fixed;
+}
+
+.popup-mask {
+  
   width: 100%;
   height: 100%;
   background: url(../img/popupbg.png);
-  overflow: hidden;
   position: fixed;
   top: 0;
-  z-index: 999;
 }
 
 .popup-content {
-  margin: 200px auto;
+  top: 50%;
+  left: 50%;
+  margin-top: -245px;
+  margin-left: -182.5px;
   width: 365px;
   border-radius: 4px/7px;
   background-color: #f5f4f3;
   box-shadow: 0 5px 15px rgba(61,61,61,.7);
   border: solid 1px #c3c2c2;
-  position: relative;
+  position: absolute;
 }
 
-.popup-content:after {
+.popup-content-close {
   position: absolute;
   content: ' ';
   background-image: url(../img/close-popup.png);
@@ -229,6 +240,7 @@
   height: 14px;
   top: 7px;
   right: 7px;
+  cursor: pointer;
 }
 
 .popup-header {
@@ -287,6 +299,7 @@
   margin: 0;
 }
 .popup-input-file-button {
+  cursor: pointer;
   position: relative;
   overflow: hidden;
   display: inline-block;
@@ -329,6 +342,7 @@
 }
 
 .popup-button {
+  cursor: pointer;
   display: block;
   margin: 0 auto;
   font-family: 'open_sanssemibold';
@@ -347,4 +361,44 @@
 .popup-button:hover {
   background-color: #47b398;
   background-image: linear-gradient(to bottom, rgba(89,198,169,1) 0%,rgba(51,140,116,1) 100%);
+}
+
+.popup-success {
+  display: none;
+  top: 50%;
+  left: 50%;
+  margin-top: -53px;
+  margin-left: -182.5px;
+  width: 365px;
+  border-radius: 4px/7px;
+  background-color: #f5f4f3;
+  box-shadow: 0 5px 15px rgba(61,61,61,.2);
+  border: solid 1px #c3c2c2;
+  position: absolute;
+}
+
+.popup-success-message {
+  margin: 26px 21px;
+  width: 321px;
+  border: solid 1px #49bb7b;
+  width: 320px;
+  
+  
+  border-radius: 4px;
+  background-color: #bce1cb;
+  background-color: rgba(73,187,123,.33);
+}
+
+.popup-success-message-text {
+  margin: 0;
+  color: #49bb7b;
+  font-family: "open_sansregular";
+  font-size: 0.875em;
+  padding: 9px;
+}
+
+.popup-success-message-ura {
+  display: block;
+  font-family: "open_sanssemibold";
+  font-size: 1em;
 }

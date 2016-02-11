@@ -114,13 +114,13 @@
   background-image: linear-gradient(to bottom, rgba(89,198,169,1) 0%,rgba(51,140,116,1) 100%);
 }
 
-.contactme-buttons-submit:focus {
+/*.contactme-buttons-submit:focus {
   background-color: #41a38b;
   border-color: #669f87;
   color: #eeedec;
   text-shadow: 1px 1px #666565;
   background-image: linear-gradient(to bottom, rgba(81,181,154,1) 0%,rgba(45,122,100,1) 100%);
-}
+}*/
 
 .contactme-buttons-reset {
   float: right;
@@ -142,10 +142,10 @@
   background-image: linear-gradient(to bottom, rgba(239,239,239,1) 0%,rgba(234,234,234,1) 6%,rgba(216,214,212,1) 100%);
 }
 
-.contactme-buttons-reset:focus {
+/*.contactme-buttons-reset:focus {
   background-color: #c4c3c2;
   border-color: #6d6d6d;
   color: #eeedec;
   text-shadow: 1px 1px #666565;
   background-image: linear-gradient(to bottom, rgba(204,204,204,1) 0%,rgba(198,198,198,1) 6%,rgba(181,180,179,1) 100%);
-}
+}*/
