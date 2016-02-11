@@ -50,29 +50,29 @@ to improve your experience.
   <div class="wrapper">
     <header class="header">
       <div class="container">
-        <a href="#" class="logo-link">
+        <a href="/" class="logo-link">
           <img src="img/logo.png" alt="alt-bad logo" class="logo">
           <span class="hide-text">Сайт Super Алексея</span>
         </a>
         <ul class="socials">
           <li class="social-item">
-            <a href="https://www.facebook.com/alex.solovyov.146">
+            <a href="https://www.facebook.com/alex.solovyov.146" target="_blank">
               <span class="hide-text">facebook.com</span> <i class="sprite sprite-facebook"></i>
             </a>
           </li>
           <li class="social-item">
-            <a href="http://vk.com/id15579274">
+            <a href="http://vk.com/id15579274" target="_blank">
               <span class="hide-text">vk.com</span> <i class="sprite sprite-vk"></i>
             </a>
           </li>
           <li class="social-item">
-            <a href="https://twitter.com/Halakul">
+            <a href="https://twitter.com/Halakul" target="_blank">
               <span class="hide-text">twitter.com</span>
               <i class="sprite sprite-twitter"></i>
             </a>
           </li>
           <li class="social-item">
-            <a href="https://github.com/Halaku">
+            <a href="https://github.com/Halaku" target="_blank">
               <span class="hide-text">github.com</span>
               <i class="sprite sprite-github"></i>
             </a>
@@ -123,13 +123,13 @@ to improve your experience.
       </aside>
       <section>
         <div class="section-body clearfx">
-          <h2 class="section-header">Мои работы</h2>
+          <h1 class="section-header">Мои работы</h1>
           <ul class="projects-list">
             <li class="projects-item">
               <div class="hover-img">
                 <img src="img/pic1.png" alt="http://a-industry.ru/" class="project-img">
                 <div class="zoom-wrapper">
-                  <a href="http://a-industry.ru/" target="_blank" class="zoom-link">Посетить сайт</a>
+                  <a href="http://a-industry.ru/" target="_blank" class="zoom-link">Подробнее</a>
                 </div>
               </div>
               <a href="http://a-industry.ru/" class="projects-link">a-industry.ru</a>
@@ -139,7 +139,7 @@ to improve your experience.
               <div class="hover-img">
                 <img src="img/pic2.png" alt="http://домгазобетон.рф/" class="project-img">
                 <div class="zoom-wrapper">
-                  <a href="http://домгазобетон.рф/" target="_blank" class="zoom-link">Посетить сайт</a>
+                  <a href="http://домгазобетон.рф/" target="_blank" class="zoom-link">Подробнее</a>
                 </div>
               </div>
               <a href="http://домгазобетон.рф/" class="projects-link">домгазобетон.рф</a>
@@ -149,7 +149,7 @@ to improve your experience.
               <div class="hover-img">
                 <img src="img/pic3.png" alt="http://crmconsulting.biz/" class="project-img">
                 <div class="zoom-wrapper">
-                  <a href="http://crmconsulting.biz/" target="_blank" class="zoom-link">Посетить сайт</a>
+                  <a href="http://crmconsulting.biz/" target="_blank" class="zoom-link">Подробнее</a>
                 </div>
               </div>
               <a href="http://crmconsulting.biz/" class="projects-link">crmconsulting.biz</a>
@@ -159,7 +159,7 @@ to improve your experience.
               <div class="hover-img">
                 <img src="img/pic4.png" alt="http://landingsloft.ru/" class="project-img">
                 <div class="zoom-wrapper">
-                  <a href="http://landingsloft.ru/" target="_blank" class="zoom-link">Посетить сайт</a>
+                  <a href="http://landingsloft.ru/" target="_blank" class="zoom-link">Подробнее</a>
                 </div>
               </div>
               <a href="http://landingsloft.ru/" class="projects-link">landingsloft.ru</a>
@@ -169,22 +169,52 @@ to improve your experience.
               <div class="hover-img">
                 <img src="img/pic5.png" alt="http://yasnow.biz/" class="project-img">
                 <div class="zoom-wrapper">
-                  <a href="http://yasnow.biz/" target="_blank" class="zoom-link">Посетить сайт</a>
+                  <a href="http://yasnow.biz/" target="_blank" class="zoom-link">Подробнее</a>
                 </div>
               </div>
               <a href="http://yasnow.biz/" class="projects-link">yasnow.biz</a>
               <span class="projects-discr"><p class="projects-discr-text">Landing page по продажи франшизы снежного бизнеса.</p></span>
             </li>
             <li class="projects-add">
-              <div class="projects-add-hover"></div>
-              <div class="projects-add-button"> <i class="sprite sprite-polaroid"></i></div>
-              <span class="projects-add-text">Добавить проект</span>
+              <a href="#">
+                <div class="projects-add-hover"></div>
+                <div class="projects-add-button"> <i class="sprite sprite-polaroid"></i></div>
+                <span class="projects-add-text">Добавить проект</span>
+              </a>
+            </li>
+          </ul>
         </div>
-        </li>
-        </ul>
+      </section>
     </div>
-    </section>
   </div>
+  <div class="popup-wrapper">
+    <div class="popup-content">
+      <h2 class="popup-header">Добавление проекта</h2>
+      <form class="popup-info">
+        <div class="popup-info-name">
+          <label for="" class="popup-label">Название проекта</label>
+          <input type="text" class="popup-input" placeholder="Введите название">
+        </div>
+        <div class="popup-info-name">
+          <label for="" class="popup-label">Картинка проекта</label>
+          <div class="popup-input-file-wrapper clearfx">
+            <input type="text" class="popup-input-file-fake" placeholder="Загрузите изображение">
+            <div class="popup-input-file-button">
+              <input type="file" class="popup-input-file">
+            </div>
+          </div>
+        </div>
+        <div class="popup-info-name">
+          <label for="" class="popup-label">URL проекта</label>
+          <input type="text" class="popup-input" placeholder="Добавьте ссылку">
+        </div>
+        <div class="popup-info-name">
+          <label for="" class="popup-label">Описание</label>
+          <textarea class="popup-textarea" placeholder="Пара слов о Вашем проекте"></textarea>
+        </div>
+        <button type="submit" class="popup-button">Добавить</button>
+      </form>
+    </div>
   </div>
   <footer class="footer-cont">
     <div class="container">

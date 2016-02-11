@@ -47,7 +47,7 @@
 .contactme-captcha-input {
   font: .75em 'open_sansregular';
   color: #727070;
-  padding: 0 10px;
+  padding: 10px 10px;
   border-radius: 2px/4px;
   border: solid 1px #d6d5d3;
   background-color: #fbfcfd;
@@ -57,7 +57,7 @@
 
 .contactme-input {
   width: 170px;
-  height: 40px;
+  height: 20px;
 }
 
 .contactme-textarea {
@@ -82,7 +82,7 @@
   float: right;
   margin-top: 22px;
   width: 171px;
-  height: 30px;
+  height: 10px;
 }
 
 .contactme-captcha {
