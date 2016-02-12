@@ -432,9 +432,11 @@
   font-family: 'open_sanssemibold';
   font-size: 1em;
 }
+
 .popup-info-name {
   position: relative;
 }
-.popup-error-highlight {
+
+.input-error-highlight {
   border: #cb6945 solid 1px;
 }

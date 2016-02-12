@@ -175,7 +175,7 @@ to improve your experience.
               <a href="http://yasnow.biz/" class="projects-link">yasnow.biz</a>
               <div class="projects-discr"><p class="projects-discr-text">Landing page по продажи франшизы снежного бизнеса.</p></div>
             </li>
-            <li class="projects-add">
+            <li class="projects-add tooltip-popup-open">
               <div class="projects-add-hover"></div>
               <div class="projects-add-button"> <i class="sprite sprite-polaroid"></i></div>
               <span class="projects-add-text">Добавить проект</span>
@@ -193,41 +193,41 @@ to improve your experience.
       <span class="copyright">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его!</span>
     </div>
   </footer>
-  <div class="popup-wrapper">
-    <div class="popup-mask"></div>
-    <div class="popup-content">
-      <div class="popup-content-close"></div>
+  <div class="popup-wrapper tooltip-popup-wrapper">
+    <div class="popup-mask tooltip-mask"></div>
+    <div class="popup-content tooltip-popoup-window">
+      <div class="popup-content-close tooltip-close-button"></div>
       <h2 class="popup-header">Добавление проекта</h2>
       <form class="popup-info">
-        <div class="popup-info-error">
+        <div class="popup-info-error tooltip-popup-error">
           <p class="popup-info-error-text"><span class="popup-info-message-error">Ошибка!</span>Невозможно добавить проект.</p>
         </div>
         <div class="popup-info-name">
           <label class="popup-label">Название проекта</label>
-          <input type="text" class="popup-input input-watch" placeholder="Введите название" data-error="введите название" data-pos="left">
+          <input type="text" class="popup-input tooltip-input" placeholder="Введите название" data-error="введите название" data-pos="left">
         </div>
         <div class="popup-info-name">
           <label class="popup-label">Картинка проекта</label>
           <div class="popup-input-file-wrapper clearfx">
-            <input type="text" readonly class="popup-input-file-fake  input-watch" placeholder="Загрузите изображение" data-error="изображение" data-pos="left">
+            <input type="text" readonly class="popup-input-file-fake  tooltip-input tooltip-file-fake" placeholder="Загрузите изображение" data-error="изображение" data-pos="left">
             <div class="popup-input-file-button">
-              <input type="file" class="popup-input-file ">
+              <input type="file" class="popup-input-file tooltip-file">
             </div>
           </div>
         </div>
         <div class="popup-info-name">
           <label class="popup-label">URL проекта</label>
-          <input type="text" class="popup-input  input-watch" placeholder="Добавьте ссылку" data-error="ссылка на проект" data-pos="left">
+          <input type="text" class="popup-input  tooltip-input" placeholder="Добавьте ссылку" data-error="ссылка на проект" data-pos="left">
         </div>
         <div class="popup-info-name">
           <label class="popup-label">Описание</label>
-          <textarea class="popup-textarea  input-watch" placeholder="Пара слов о Вашем проекте" data-error="описание проекта" data-pos="left"></textarea>
+          <textarea class="popup-textarea  tooltip-input" placeholder="Пара слов о Вашем проекте" data-error="описание проекта" data-pos="left"></textarea>
         </div>
-        <button type="submit" class="popup-button submit-button">Добавить</button>
+        <button type="submit" class="popup-button tooltip-submit-button">Добавить</button>
       </form>
     </div>
-    <div class="popup-success">
-      <div class="popup-content-close"></div>
+    <div class="popup-success tooltip-popup-success">
+      <div class="popup-content-close tooltip-close-button"></div>
       <div class="popup-success-message">
         <p class="popup-success-message-text"><span class="popup-success-message-ura">Ура!</span>Проект успешно добавлен!</p>
       </div>
@@ -236,7 +236,7 @@ to improve your experience.
   <script src="bower/jquery/jquery.js"></script>
   <script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/projects.js"></script>
+  <script src="js/input-tooltip.js"></script>
 </body>
 
 </html>
