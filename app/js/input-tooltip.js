@@ -42,7 +42,7 @@
 
     function resetInput() {
         $(inputs)
-            .off()
+            .off('keyup')
             .val('')
             .removeClass('input-error-highlight');
         $(inputFile).off();

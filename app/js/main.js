@@ -1,3 +1,3 @@
-if (!Modernizr.input.placeholder) {
-    $('.input-watch').placeholder();
+ if (!Modernizr.input.placeholder) {
+    $('.tooltip-input').placeholder();
 }

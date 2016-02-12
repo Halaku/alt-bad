@@ -150,10 +150,6 @@
   background-image: linear-gradient(to bottom, rgba(81,181,154,1) 0%,rgba(45,122,100,1) 100%);
 }
 
-.input-error-highlight {
-  border: #cb6945 solid 1px;
-}
-
 .contactme-info-name {
   position: relative;
 }
