@@ -87,12 +87,13 @@ body {
 }
 
 .logo {
-  position: absolute;
-  top: 15px;
-  left: 0;
+  
 }
 
 .logo-link {
+  position: absolute;
+  top: 15px;
+  left: 0;
   display: block;
 }
 .hide-text {
