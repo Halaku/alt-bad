@@ -13,7 +13,7 @@
         projectInfo = false
 
     addProject.click(function() {
-        popupWindow.show();
+        popupWindow.show(200);
         popupSuccess.hide();
         popup.show();
         $(popupInput).change(function() {
@@ -41,9 +41,9 @@
 
         });
         if ($(inputs).hasClass('popup-error-highlight')) {
-            popupError.show();
+            popupError.show(200);
         } else {
-            popupError.hide();
+            popupError.hide(200);
             return true;
         }
     }
@@ -56,8 +56,8 @@
             inputCheck();
         })
         if (projectInfo) {
-            popupWindow.hide();
-            popupSuccess.show();
+            popupWindow.hide(200);
+            popupSuccess.show(200);
         }
     })
 

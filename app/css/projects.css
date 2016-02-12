@@ -362,6 +362,14 @@
   background-image: linear-gradient(to bottom, rgba(89,198,169,1) 0%,rgba(51,140,116,1) 100%);
 }
 
+.popup-button:active {
+  background-color: #41a38b;
+  border-color: #669f87;
+  color: #eeedec;
+  text-shadow: 1px 1px #666565;
+  background-image: linear-gradient(to bottom, rgba(81,181,154,1) 0%,rgba(45,122,100,1) 100%);
+}
+
 .popup-success {
   display: none;
   top: 50%;
