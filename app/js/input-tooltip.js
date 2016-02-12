@@ -7,7 +7,6 @@
         popupWrapper = $('.tooltip-popup-wrapper'),
         popupWindow = $('.tooltip-popoup-window'),
         popupSuccess = $('.tooltip-popup-success'),
-        popupError = $('.tooltip-popup-error'),
         inputs = $('.tooltip-input'),
         inputFile = $('.tooltip-file'),
         inputFileFake = $('.tooltip-file-fake'),
@@ -32,10 +31,7 @@
                 }
             }
         });
-        if ($(inputs).hasClass('input-error-highlight')) {
-            popupError.show(200);
-        } else {
-            popupError.hide(200);
+        if (!$(inputs).hasClass('input-error-highlight')) {
             return true;
         }
     }
@@ -46,7 +42,6 @@
             .val('')
             .removeClass('input-error-highlight');
         $(inputFile).off();
-        popupError.hide();
         popupSuccess.hide();
         $(tooltip.selector).remove();
     }
@@ -56,7 +51,7 @@
         popupWrapper.show();
         popupWindow.show();
         inputFile.change(function() {
-            $(inputFileFake).val($(inputFile).val());
+            $(inputFileFake).val($(inputFile)[0].files[0].name);
         });
     });
 
