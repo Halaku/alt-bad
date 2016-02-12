@@ -130,25 +130,25 @@ to improve your experience.
                   <label class="contactme-label">
                     Имя
                   </label>
-                  <input name="name" class="contactme-input" placeholder="Как к Вам обращаться">
+                  <input name="name" class="contactme-input input-watch" placeholder="Как к Вам обращаться"  data-error="введите имя" data-pos="left">
                 </div>
                 <div class="contactme-info-email">
                   <label class="contactme-label">
                     Email
                   </label>
-                  <input name="email" class="contactme-input" placeholder="Куда мне писать">
+                  <input name="email" class="contactme-input input-watch" placeholder="Куда мне писать"  data-error="введите email" data-pos="right">
                 </div>
               </div>
-              <div class="contactme-message">
+              <div class="contactme-info">
                 <label class="contactme-label">
                   Сообщение
                 </label>
-                <textarea name="message" class="contactme-textarea" placeholder="Кратко в чем суть"></textarea>
+                <textarea name="message" class="contactme-textarea input-watch" placeholder="Кратко в чем суть"  data-error="ваш вопрос" data-pos="left"></textarea>
               </div>
-              <div class="contactme-captcha clearfx">
+              <div class="contactme-info contactme-captcha clearfx">
                 <label class="contactme-label">Введите код, указанный на картинке</label>
                 <div class="captcha-wrapper"></div>
-                <input class="contactme-captcha-input" placeholder="Введите код">
+                <input class="contactme-captcha-input input-watch" placeholder="Введите код"  data-error="код капчи" data-pos="right" >
               </div>
               <div class="contactme-buttons clearfx">
                 <button type="submit" class="contactme-buttons-submit">Отправить</button>

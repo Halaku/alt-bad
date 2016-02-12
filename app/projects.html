@@ -199,28 +199,31 @@ to improve your experience.
     <div class="popup-content-close"></div>
     <h2 class="popup-header">Добавление проекта</h2>
     <form class="popup-info">
+      <div class="popup-info-error">
+        <p class="popup-info-error-text"><span class="popup-info-message-error">Ошибка!</span>Невозможно добавить проект.</p>
+      </div>
       <div class="popup-info-name">
         <label for="" class="popup-label">Название проекта</label>
-        <input type="text" class="popup-input" placeholder="Введите название">
+        <input type="text" class="popup-input input-watch" placeholder="Введите название" data-error="введите название" data-pos="left">
       </div>
       <div class="popup-info-name">
         <label for="" class="popup-label">Картинка проекта</label>
         <div class="popup-input-file-wrapper clearfx">
-          <input type="text" class="popup-input-file-fake" placeholder="Загрузите изображение">
+          <input type="text" readonly class="popup-input-file-fake  input-watch" placeholder="Загрузите изображение" data-error="изображение" data-pos="left">
           <div class="popup-input-file-button">
-            <input type="file" class="popup-input-file">
+            <input type="file" class="popup-input-file ">
           </div>
         </div>
       </div>
       <div class="popup-info-name">
         <label for="" class="popup-label">URL проекта</label>
-        <input type="text" class="popup-input" placeholder="Добавьте ссылку">
+        <input type="text" class="popup-input  input-watch" placeholder="Добавьте ссылку"  data-error="ссылка на проект" data-pos="left">
       </div>
       <div class="popup-info-name">
         <label for="" class="popup-label">Описание</label>
-        <textarea class="popup-textarea" placeholder="Пара слов о Вашем проекте"></textarea>
+        <textarea class="popup-textarea  input-watch" placeholder="Пара слов о Вашем проекте"  data-error="описание проекта" data-pos="left"></textarea>
       </div>
-      <button type="submit" class="popup-button">Добавить</button>
+      <button type="submit" class="popup-button submit-button">Добавить</button>
     </form>
   </div>
   <div class="popup-success">
@@ -228,7 +231,7 @@ to improve your experience.
     <div class="popup-success-message"><p class="popup-success-message-text"><span class="popup-success-message-ura">Ура!</span>Проект успешно добавлен!</p></div>
   </div>
   </div>
-  <script src="bower/jquery/jquery.min.js"></script>
+  <script src="bower/jquery/jquery.js"></script>
   <script src="js/projects.js"></script>
 </body>
 
