@@ -1,17 +1,14 @@
-(function() {
-    var submit = $('.tooltip-submit-button'),
-        reset = $('.tooltip-reset-button'),
-        closeWindow = $('.tooltip-close-button'),
-        mask = $('.tooltip-mask'),
-        popupOpen = $('.tooltip-popup-open'),
-        popupWrapper = $('.tooltip-popup-wrapper'),
+var tooltipMod = (function() {
+    var popupWrapper = $('.tooltip-popup-wrapper'),
         popupWindow = $('.tooltip-popoup-window'),
         popupSuccess = $('.tooltip-popup-success'),
         inputs = $('.tooltip-input'),
         inputFile = $('.tooltip-file'),
         inputFileFake = $('.tooltip-file-fake'),
         tooltip = $('.tooltip, .tooltip-right'),
-        noTooltip = false;
+        noTooltip = false,
+        tooltipMod = {};
+
 
 
     function inputCheck() {
@@ -46,17 +43,8 @@
         $(tooltip.selector).remove();
     }
 
-    popupOpen.click(function() {
-        resetInput();
-        popupWrapper.show();
-        popupWindow.show();
-        inputFile.change(function() {
-            $(inputFileFake).val($(inputFile)[0].files[0].name);
-        });
-    });
-
-    submit.click(function(e) {
-        e.preventDefault();
+    function submitClick() {
+        
         noTooltip = inputCheck();
         $(inputs).keyup(inputCheck);
         $(inputFile).change(inputCheck);
@@ -64,15 +52,37 @@
             popupWindow.hide(200);
             popupSuccess.show(200);
         }
-    });
+    }
 
-    reset.click(resetInput);
-
-    closeWindow.click(function() {
+    function popupOpen() {
+        resetInput();
+        popupWrapper.show();
+        popupWindow.show();
+        inputFile.change(function() {
+            $(inputFileFake).val($(inputFile)[0].files[0].name);
+        });
+    }
+    
+    function popupClose() {
         $(popupWrapper).hide();
-    });
+    }
 
-    mask.click(function() {
-        $(popupWrapper).hide();
-    });
+
+    tooltipMod.submit = function () {
+        return submitClick();
+    };
+
+    tooltipMod.reset = function () {
+        return resetInput();
+    };
+
+    tooltipMod.popupOpen = function () {
+        return popupOpen();
+    };
+
+    tooltipMod.popupClose = function () {
+        return popupClose();
+    };
+
+    return tooltipMod;
 })();
